@@ -2,13 +2,13 @@
 The Java Persistence API (JPA) is the specification of Java that is used to persist data between Java object and relational database. JPA acts as a bridge between object-oriented domain models and relational database systems. As JPA is just a specification, it doesn't perform any operation by itself. It requires an implementation. Therefore, ORM tools like Hibernate, TopLink, and iBatis implements JPA specifications for data persistence. The first version of the Java Persistence API, JPA 1.0 was released in 2006 as a part of EJB 3.0 specification
 
 
-# ===============================
-# = DATA SOURCE
-# ===============================
+## ===============================
+## = DATA SOURCE
+## ===============================
 
-# Set here configurations for the database connection
+## Set here configurations for the database connection
 
-# Connection url for the database "netgloo_blog"
+## Connection url for the database "netgloo_blog"
 spring.datasource.url = jdbc:mysql://localhost:3306/netgloo_blog?useSSL=false
 
 # Username and password
